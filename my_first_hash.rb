@@ -2,7 +2,6 @@ def my_hash
   my_hash = {"peas" => "protein", "spinach" => "iron", "rice" => "fiber"}
 end
 
-
 def shipping_manifest
   shipping_manifest = {"whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3}
 end
@@ -15,6 +14,6 @@ end
 def adding
   shipping_manifest = {"whale bone corsets" => 5, "porcelain vases" => 2, "oil paintings" => 3}
 
-  shipping_manifest["pearl necklace"]
-
+  shipping_manifest["muskets"] = 2
+  shipping_manifest["gun powder"] = 4
 end
